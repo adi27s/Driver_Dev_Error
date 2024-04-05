@@ -1,0 +1,5 @@
+1. Install gcc 12
+sudo apt install gcc-12
+sudo ln -s -f /usr/bin/gcc-12 /usr/bin/gcc
+
+2. 
