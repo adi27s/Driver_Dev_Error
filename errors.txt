@@ -3,7 +3,7 @@ sudo apt install gcc-12
 sudo ln -s -f /usr/bin/gcc-12 /usr/bin/gcc
 
 2. For Cross Compiler
-sudo make ARCH=ARM CROSS_COMPILE=arm-linux-gnueabihf- -C /home/aditya/workspace/ldd/source/linux/ M=$PWD modules
+sudo make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C /home/aditya/workspace/ldd/source/linux/ M=$PWD modules
 
 cat /home/aditya/.bashrc
 copy this line : export PATH=$PATH:/home/aditya/workspace/ldd/downloads/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin
