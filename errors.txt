@@ -10,7 +10,7 @@ copy this line : export PATH=$PATH:/home/aditya/workspace/ldd/downloads/gcc-lina
 paste it in : sudo vi /etc/sudoers file
 in -> Defaults secure_path="xyz:export PATH=$PATH:/home/aditya/workspace/ldd/downloads/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin"
 
-3. Internet in BBB via ethernet port
+3. Ethernet port connection
 
 Step 1: https://www.youtube.com/watch?v=7gbdNy6XsMc (for ethernet connection)
 Step 2: sudo vi /etc/resolv.conf
@@ -35,4 +35,7 @@ Step 3: sudo vi /etc/network/interfaces
           dns-nameservers 8.8.8.8
           dns-nameservers 8.8.4.4
 
-Step 4:
+Step 4: (not req--test pinging to host pc)
+  Default gateway: ip route | grep default
+  sudo route add default gw 10.42.0.1 eth0
+  
