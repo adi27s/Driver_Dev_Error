@@ -37,7 +37,7 @@ Step 3: sudo vi /etc/network/interfaces<br>
           dns-nameservers 8.8.8.8<br>
           dns-nameservers 8.8.4.4<br>
 
-Step 4: (not req--test pinging to host pc)<br>
+Step 4: (if ethernet eth0 ip isnt visible--test pinging to host pc)<br>
   Default gateway: ip route | grep default<br>
   sudo route add default gw 10.42.0.1 eth0<br>
   
