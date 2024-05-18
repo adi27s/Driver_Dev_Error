@@ -42,6 +42,6 @@ Step 4: (if ethernet eth0 ip isnt visible--test pinging to host pc)<br>
   sudo route add default gw 10.42.0.1 eth0<br>
   
 **4. In bashrc add path cross compiler**<br>
-  export PATH=$PATH:/home/aditya/workspace/ldd/downloads/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin
-After running this command, you can invoke the ARM cross-compiler tools (like arm-linux-gnueabihf-gcc) from anywhere in the terminal without providing their full paths
+  export PATH=$PATH:/home/aditya/workspace/ldd/downloads/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf/bin<br>
+After running this command, you can invoke the ARM cross-compiler tools (like arm-linux-gnueabihf-gcc) from anywhere in the terminal without providing their full paths<br>
 
